@@ -66,3 +66,33 @@ vue.js 프레임워크 프론트엔드 개발 가이드
 * Chrome Vue.js devtools 
     * Chrome 브라우저 Vue 개발자 도구
 
+
+**웹기술: WebRTC 화상회의 서비스(음성/영상/P2P 서비스)**
+---
+
+**스켈레톤 코드**
+- 반응형 웹 서비스
+- Vue.js
+- Spring
+
+**배경** 
+- 비대면 서비스의 필요성이 대두됨으로 인해 각종 행사와 그룹 커뮤니케이션이 온라인 화상으로 이루어지는 경우가 많아지고 있다. 그룹으로 화상을 공유하는 기술은 다양한 쓰임새를 갖는다. 
+
+**정의**
+- "WebRTC 화상 회의" 는 그룹 커뮤니케이션을 위한 그룹 화상과 그룹 채팅 등의 기능이 있는 서비스를 말힌다. 
+- Web Real-Time Communication의 약자로 웹에서 별다른 소프트웨어 없이 카메라, 마이크 등을 활용해서 실시간 커뮤니케이션을 제공해주는 기술이다.
+- 화상통화, 화상공유 구현할 수 있는 오픈소스
+- 비디오, 음성, 일반 데이터가 **P2P 방식**으로 피어간에 전송되도록 지원
+- JavaScript API로 제공
+    * [WebRTC API 공식문서](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API)
+- [출처](https://gh402.tistory.com/38)
+- 장점: Latency가 짧다, 별도 플러그인/미디어 송출 관련 소프트웨어를 설치할 필요가 없다
+- 단점: Cross-browsing problem(Internet Explorer 지원 안됨, 호환성 문제),
+STUN/TURN 서버 필요(P2P 통신을 위해서는 사용자의 IP 주소를 알아야 된다. 하지만 대부분 사용자는 방화벽을 사용하고 다른 네트워크상에서 연결이 이루어지기 위해서는 STUN/TURN 서버가 꼭 필요) 
+- data streams, STUN/TURN servers, signaling, JSEP, ICE, SIP, SDP, NAT, UDP/TCP, network socket 등
+- [용어정리](https://gh402.tistory.com/45)
+
+- **data streams** : 연결지향통신에서 연속적으로 흘러나오는 데이터들의 흐름, 데이터의 양이 한정되어 있지 않고 끊임없이 생성되고 변하는 데이터의 흐름
+- **NAT(Network Address Translation) : 
+- WebRTC의 통신원리 : Peer to Peer 통신
+    - **P2P**: 클라이언트/서버의 개념 없이 동등한 노드로 구성되어 데이터를 주고받는 통신 형태
