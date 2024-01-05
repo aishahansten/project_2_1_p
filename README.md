@@ -29,8 +29,15 @@ vue.js 프레임워크 프론트엔드 개발 가이드
 * Vue.js 사전 준비 ⚡️
     * [extention, chrome tool 설치](https://married-spot-253.notion.site/Vue-js-026a610188c347a980224a848fa63bf0)
 
-* Node.js 설치(20.10.0 LTS) ⚡️
-    * [Node.js 설치가이드](https://married-spot-253.notion.site/Node-js-1925d5119f4f4cf3b5c17002025c05d7)
+* Node.js 설치(14.17.0) ⚡️
+    - ~~20.10.0~~
+    - 최신 LTS 버전으로 실행시 라이브러리 호환 오류 발생해서 14.17.0 버전으로 재설치해야 될 것 같습니다.
+    - https://nodejs.org/download/release/v14.17.0/  `[node-v14.17.0-x64.msi](https://nodejs.org/download/release/v14.17.0/node-v14.17.0-x64.msi)` 설치``
+    - [https://married-spot-253.notion.site/Node-js-1925d5119f4f4cf3b5c17002025c05d7](https://www.notion.so/1925d5119f4f4cf3b5c17002025c05d7?pvs=21)
+    
+    - **명세 기준은 14.17.0**
+    ([https://codezone.tistory.com/entry/electon-03-NodeJs-개발에-유용한-nvm-간단히-알아보고-갑시다](https://codezone.tistory.com/entry/electon-03-NodeJs-%EA%B0%9C%EB%B0%9C%EC%97%90-%EC%9C%A0%EC%9A%A9%ED%95%9C-nvm-%EA%B0%84%EB%8B%A8%ED%9E%88-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B3%A0-%EA%B0%91%EC%8B%9C%EB%8B%A4))
+    → **nvm 컨트롤러**로 node.js 버전 여러개를 설치해놓고 돌려가면서 사용할 수 있습니다
 
 * Python 설치(3.9.13) ⚡️
     * [Python 다운로드](https://married-spot-253.notion.site/Python-e23d9e3b9ce9411c87adeae095a7ad19)
