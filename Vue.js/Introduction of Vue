@@ -1,8 +1,0 @@
-# Client side frameworks
-- 클라이언트 측에서 UI와 상호작용을 개발하기 위해 사용되는 JS 기반 프레임워크
-- 백엔드 - data
-- 프론트엔드 - 화면 구성(HTML, CSS, Ajax, JS)
-- cdn 으로 하다가 Vite로 구성
-- Vanilla JS 로만 하면 복잡하니까 기본적으로 기능을 해주는 프레임워크 (Angular, Vue.js, React)
-- 동적인 대화형 웹 애플리키에션 구축
-- Native App(모바일, 플랫폼 종속적), Web App(브라우저에서 실행), Hybrid App
