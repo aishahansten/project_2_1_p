@@ -20,3 +20,12 @@
 
 # Vue
 [Vue3공식문서](https://ko.vuejs.org/guide/introduction)
+
+1. CDN , Application Instance 생성
+- const {createApp} = Vue;  
+  - vue 가 가진 인스턴스를 생성 
+  - Vue 는 cdn 의 .js 파일의 객체이다, const 는 상수, {}는 구조분해할당(destructure), createApp 은 .js 파일의 객체인데 ...args spread operator 여러 인자를 가져갈 수 있음
+  .js에서 export 넘겨줌 - 우리는 import 로 모듈로 사용함
+
+  
+

@@ -3,26 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Vue.js</title>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
   <div id="app">
-    <h1>Option API</h1>
-    {{message}}
+   
   </div>
   <script>
     const {createApp} = Vue;  
 
-    let model = {message: "Hello Vue JS"}
-
-    let app = createApp({
-      data() {
-        return model
+    const app = createApp({
+      setup() {
+        return {}
       }
     }); 
 
     app.mount("#app")
+
   </script>
 </body>
 </html>
